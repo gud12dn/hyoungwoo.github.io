@@ -14,7 +14,7 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#Experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -38,7 +38,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="assets/HyoungwooKim.png" alt="Hyoungwoo Kim profile picture" />
+        <img src="./assets/HyoungwooKim.png" alt="Hyoungwoo Kim profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -47,7 +47,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('assets/Resume_Hyoungwoo Kim1.pdf')"
+            onclick="window.open('./assets/Resume_Hyoungwoo Kim1.pdf')"
           >
             Download CV
           </button>
@@ -57,13 +57,13 @@
         </div>
         <div id="socials-container">
           <img
-            src="assets/linkedin.png"
+            src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="location.href='https://linkedin.com/'"
           />
           <img
-            src="assets/github.png"
+            src="./assets/github.png"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/'"
@@ -76,10 +76,13 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="about-details-container">
+            <div class="about-containers">
+              
+        <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="assets/experience.png"
+                src="./assets/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
@@ -88,64 +91,66 @@
             </div>
             <div class="details-container">
               <img
-                src="assets/education.png"
+                src="./assets/education.png"
                 alt="Education icon"
                 class="icon"
               />
               <h3>programming languages</h3>
-              <p>python, R, SQL<br /><br /></p>
+              <p>python,     R,      SQL<br /><br /></p>
             </div>
+            
             <div class="details-container">
-              <img
-                src="assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Data visualization</h3>
-              <p>Tableau, Matplotlib, Seaborn<br /></p>
-            </div>
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Data visualization</h3>
+                <p>Tableau, Matplotlib, Seaborn<br /></p>
+              </div>
           </div>
           <div class="text-container">
-            <p></p>
+            <p>
+                
+            </p>
           </div>
         </div>
       </div>
       <img
-        src="assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
       />
     </section>
     <section id="Experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <div class="date-container">
-              <p class="date">March 2022 - December 2023</p>
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+                <div class="date-container">
+                    <p class="date">March 2022 - December 2023</p>
+                  </div>
+              <h2 class="experience-sub-title">Social Service Agent</h2>
+              <p>
+                Assisted daily living activities for 50+ elderly residents, including meal distribution, 
+                mobility support, and hygiene management.
+              </p>
             </div>
-            <h2 class="experience-sub-title">Social Service Agent</h2>
-            <p>
-              Assisted daily living activities for 50+ elderly residents,
-              including meal distribution, mobility support, and hygiene management.
-            </p>
-          </div>
-          <div class="details-container">
-            <div class="date-container">
-              <p class="date">August 2024 - Present</p>
+            <div class="details-container">
+                <div class="date-container">
+                    <p class="date">August 2024 - Present</p>
+              <h2 class="experience-sub-title">Likelion_Wisconsin</h2>
+              <p>
+                 Description: Student-run Tech Entrepreneurship Community affiliated with LikeLion, 
+                 the largest coding boot camp non-profit company in South Korea
+              </p>
             </div>
-            <h2 class="experience-sub-title">Likelion_Wisconsin</h2>
-            <p>
-              Description: Student-run Tech Entrepreneurship Community affiliated with LikeLion,
-              the largest coding boot camp non-profit company in South Korea
-            </p>
           </div>
         </div>
-      </div>
-    </section>
-
+      </section>
+      
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -154,7 +159,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/sql.png"
+                src="./assets/sql.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -178,7 +183,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/Machine-learning.png"
+                src="./assets/Machine-learning.png"
                 alt="Project 2"
                 class="project-img"
               />
@@ -202,7 +207,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="assets/Data-Visualization.png"
+                src="./assets/Data-Visualization.png"
                 alt="Project 3"
                 class="project-img"
               />
@@ -226,28 +231,27 @@
         </div>
       </div>
       <img
-        src="assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
     </section>
-
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="assets/email.png"
+            src="./assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:gud12dn@gmail.com">gud12dn@gmail.com</a></p>
+          <p><a href="mailto:examplemail@gmail.com">gud12dn@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
-            src="assets/linkedin.png"
+            src="./assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
@@ -255,13 +259,12 @@
         </div>
       </div>
     </section>
-
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
